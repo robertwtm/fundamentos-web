@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+
+
+
+/*Estilos da pagina index.hltml*/
+body{
+    background-color: black;
+    color: aliceblue;
+}
+/*Estilo menu*/
+#menu li{
+    display: inline;
+    padding: 30px;
+   
+    
+}
+#menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    justify-content: flex-end;
+    
+}
+#menu li a:hover{
+    color: rgb(228, 228, 228);
+}
+
+/*Estilo para ficar no lado direito*/
+:right{
+    text-align: right;
+}
+
+
+/*Estilos da pagina contato.hltml*/
+
+.ml-50{
+    margin-left: 50px;
+}
